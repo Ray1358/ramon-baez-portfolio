@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ramon Baez | Projects</title>
+  <meta name="description" content="Ramon Baez software projects." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Ramon Baez</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="experience.html">Experience</a>
+        <a class="nav-link active" href="projects.html">Projects</a>
+        <a class="nav-link nav-cta" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="container">
+      <div class="section-head">
+        <h1 class="page-title">Projects</h1>
+        <p class="muted">
+          Selected projects demonstrating backend development, database integration,
+          and applied problem solving.
+        </p>
+      </div>
+
+      <div class="cards">
+
+        <!-- AI MATH TUTOR (FEATURED PROJECT) -->
+        <article class="p-card reveal" style="border-color: rgba(122,162,255,.45);">
+          <div class="p-top">
+            <h3>AI Math Tutor — Project Presentation (UMass Amherst)</h3>
+            <span class="tag">AI • Java • RAG</span>
+          </div>
+
+          <p class="muted">
+            An AI-powered math tutoring application designed to assist students with
+            step-by-step problem solving and conceptual understanding. This project was
+            developed and presented at UMass Amherst, focusing on practical applications
+            of AI-assisted learning tools.
+          </p>
+
+          <ul>
+            <li>Designed a tutoring workflow to guide users through math concepts and problems.</li>
+            <li>Integrated AI/LLM models to generate explanations and contextual feedback.</li>
+            <li>Implemented retrieval-based techniques to improve response relevance.</li>
+            <li>Focused on clarity, usability, and educational value over automation.</li>
+            <li>Presented system design, architecture, and outcomes to an academic audience.</li>
+          </ul>
+
+          <p class="muted small" style="margin-top:10px;">
+            <strong>Technologies:</strong> Java, AI/LLM Integration, RAG Concepts,
+            Vector Databases
+          </p>
+
+        
+         
+          <div class="p-actions">
+            <a class="mini-btn" href="https://github.com/Ray1358/Ai-Math-Tutor" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+         
+        </article>
+
+        <!-- EXPENSEREPORT -->
+        <article class="p-card reveal">
+          <div class="p-top">
+            <h3>ExpenseReport</h3>
+            <span class="tag">Java • JavaFX • SQLite</span>
+          </div>
+
+          <p class="muted">
+            A desktop personal finance manager designed to track expenses, categorize spending,
+            and generate monthly summaries. Built to demonstrate clean architecture and database integration.
+          </p>
+
+          <ul>
+            <li>Persistent storage using SQLite via JDBC.</li>
+            <li>Category-based tracking to support budgeting and analysis.</li>
+            <li>Monthly summaries and totals for quick financial insights.</li>
+            <li>Layered structure (UI → service → repository) for maintainability.</li>
+          </ul>
+
+          <div class="p-actions">
+            <a class="mini-btn" href="https://github.com/Ray1358/ExpenseReport" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <!-- BANK MANAGEMENT SYSTEM -->
+        <article class="p-card reveal">
+          <div class="p-top">
+            <h3>Bank Management System</h3>
+            <span class="tag">Java • SQL • JDBC</span>
+          </div>
+
+          <p class="muted">
+            A database-backed banking application focused on CRUD operations, validations,
+            and core business rules. Built to strengthen SQL and backend fundamentals.
+          </p>
+
+          <ul>
+            <li>Create and update customer and account records.</li>
+            <li>Input validation to prevent inconsistent data states.</li>
+            <li>Database-backed storage using SQL and JDBC.</li>
+            <li>Clear separation of logic for readability and testing.</li>
+          </ul>
+
+          <div class="p-actions">
+            <a class="mini-btn" href="https://github.com/Ray1358/Bank" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+        <!-- PASSWORD MANAGER -->
+        <article class="p-card reveal">
+          <div class="p-top">
+            <h3>Password Manager</h3>
+            <span class="tag">Python • Tkinter • SQLite</span>
+          </div>
+
+          <p class="muted">
+            A local-only password vault concept with a simple graphical interface.
+            Built to practice Python development, UI design, and persistent storage.
+          </p>
+
+          <ul>
+            <li>Local storage model using SQLite (no cloud dependency).</li>
+            <li>Add and search workflow for saved credentials.</li>
+            <li>GUI built with Tkinter for desktop usability.</li>
+            <li>Emphasis on safe handling patterns and simplicity.</li>
+          </ul>
+
+          <div class="p-actions">
+            <a class="mini-btn" href="https://github.com/Ray1358/PasswordManager" target="_blank" rel="noreferrer">Repo</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="muted">© <span id="year"></span> Ramon Baez</span>
+      <a class="top-link" href="contact.html">Next: Contact →</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
