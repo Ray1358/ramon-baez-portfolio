@@ -362,5 +362,8 @@ input:focus, textarea:focus{border-color: rgba(122,162,255,.6)}
 .top-link:hover{border-color: rgba(122,162,255,.45)}
 
 /* Reveal */
-.reveal{opacity:0; transform: translateY(10px); transition: .6s ease}
-.reveal.show{opacity:1; transform: translateY(0)}
+/* Reveal: only hide when JS is enabled */
+.reveal{opacity:1; transform:none}
+.js .reveal{opacity:0; transform: translateY(10px); transition: .6s ease}
+.js .reveal.show{opacity:1; transform: translateY(0)}
+
