@@ -6,7 +6,9 @@
   <title>Ramon Baez | Projects</title>
   <meta name="description" content="Projects by Ramon Baez." />
 
+  <!-- Only hide reveal sections when JS is enabled -->
   <script>document.documentElement.classList.add('js');</script>
+
   <link rel="stylesheet" href="./styles.css" type="text/css" />
 </head>
 <body>
@@ -43,13 +45,20 @@
             <h3>AI Math Tutor (Presented at UMass Amherst)</h3>
             <span class="tag">Java • RAG • Vector DB</span>
           </div>
+
           <p class="muted" style="margin-top:10px;">
-            An AI-powered math tutoring application designed to guide learners through step-by-step problem solving.
-            Focused on clear explanations, structured responses, and retrieval-augmented generation (RAG) to ground answers.
+            AI-powered math tutoring application designed to guide learners through step-by-step problem solving.
+            Focused on clear explanations and retrieval-augmented generation (RAG) to ground answers.
           </p>
+
+          <ul class="muted" style="margin-top:10px;">
+            <li>Built a RAG pipeline using document chunking and a vector database for retrieval</li>
+            <li>Generated structured explanations to reinforce concepts and problem-solving patterns</li>
+            <li>Designed the system with maintainability and clear separation of responsibilities</li>
+          </ul>
+
           <div class="p-actions">
-            <a class="mini-btn outline" href="https://github.com/Ray1358" target="_blank" rel="noreferrer">GitHub Profile</a>
-            <a class="mini-btn" href="./contact.html">Contact</a>
+            <a class="mini-btn" href="https://github.com/Ray1358/Ai-Math-Tutor" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </article>
 
@@ -58,28 +67,64 @@
             <h3>Finance Manager</h3>
             <span class="tag">Java • JavaFX • SQLite</span>
           </div>
+
           <p class="muted" style="margin-top:10px;">
-            Desktop finance manager with expense tracking, categories, and monthly summaries using SQLite via JDBC.
-            Built with a structured approach (models/services/data access) to keep the codebase maintainable.
+            Desktop finance manager for expense tracking, categories, and monthly summaries using SQLite via JDBC.
+            Built with a layered approach for clean structure and maintainability.
           </p>
+
+          <ul class="muted" style="margin-top:10px;">
+            <li>Implemented persistent storage using SQLite and JDBC</li>
+            <li>Designed features for categories, summaries, and trends</li>
+            <li>Applied OOP and separation of concerns for clean architecture</li>
+          </ul>
+
           <div class="p-actions">
-            <a class="mini-btn outline" href="https://github.com/Ray1358" target="_blank" rel="noreferrer">GitHub Profile</a>
-            <a class="mini-btn" href="./contact.html">Contact</a>
+            <a class="mini-btn" href="https://github.com/Ray1358/ExpenseReport" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </article>
 
         <article class="p-card reveal">
           <div class="p-top">
-            <h3>Password Vault</h3>
+            <h3>Password Manager</h3>
             <span class="tag">Python • Tkinter • SQLite</span>
           </div>
+
           <p class="muted" style="margin-top:10px;">
             Local-only password vault with a simple UI and persistent storage.
-            Emphasized safe handling of secrets, clean user flows, and basic data management.
+            Emphasized safe handling of secrets and clean user flows.
           </p>
+
+          <ul class="muted" style="margin-top:10px;">
+            <li>Built a desktop UI with Tkinter</li>
+            <li>Stored records locally using SQLite</li>
+            <li>Focused on local-first design and secure development habits</li>
+          </ul>
+
           <div class="p-actions">
-            <a class="mini-btn outline" href="https://github.com/Ray1358" target="_blank" rel="noreferrer">GitHub Profile</a>
-            <a class="mini-btn" href="./contact.html">Contact</a>
+            <a class="mini-btn" href="https://github.com/Ray1358/PasswordManager" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="p-card reveal">
+          <div class="p-top">
+            <h3>Bank Management System</h3>
+            <span class="tag">Java • JDBC • SQL</span>
+          </div>
+
+          <p class="muted" style="margin-top:10px;">
+            Console-based banking application built in Java to manage customers and accounts using a relational database.
+            Focused on backend fundamentals, data persistence, and validation logic.
+          </p>
+
+          <ul class="muted" style="margin-top:10px;">
+            <li>Implemented CRUD workflows using JDBC and SQL</li>
+            <li>Designed database-backed operations for account/customer management</li>
+            <li>Applied OOP principles to keep business logic organized and maintainable</li>
+          </ul>
+
+          <div class="p-actions">
+            <a class="mini-btn" href="https://github.com/Ray1358/Bank" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </article>
       </section>
